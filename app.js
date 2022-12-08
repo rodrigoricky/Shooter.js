@@ -3,7 +3,6 @@ var app = express();
 var serv = require('http').Server(app);
 var colors = require('colors/safe');
 var middleware = require('socketio-wildcard')();
-
 var debug = typeof v8debug === 'object' || /--debug/.test(process.execArgv.join(' '));
 
 console.log(colors.green("[jsShooter] Starting server..."));
