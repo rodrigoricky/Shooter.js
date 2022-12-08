@@ -49,6 +49,7 @@ var NPCShooter = function (id, x, y) {
 		activationTimer: 100
 	}
 
+	
 	if (countOPPlayers() > 0) {
 		self.hp = 10;
 	}
