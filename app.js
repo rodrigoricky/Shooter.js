@@ -17,7 +17,7 @@ var MAX_SOCKET_ACTIVITY_PER_SECOND = 1000;
 var fps = 30;
 //-------------------------------------
 
-var port = process.env.PORT || 80;
+var port = process.env.PORT || 3000;
 if (process.env.PORT == undefined) {
 	console.log(colors.blue("[jsShooter] No port defined using default (80)"));
 }
